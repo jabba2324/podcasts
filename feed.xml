@@ -6,11 +6,11 @@
   <channel>
     <title>Espresso News</title>
     <description>Your daily AI-generated news summary - tech, business, and world events in under 10 minutes</description>
-    <link>https://jabba2324.github.io/newscast/</link>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Feb 2026 22:45:18 GMT</lastBuildDate>
-    <atom:link href="https://jabba2324.github.io/newscast/feed.xml" rel="self" type="application/rss+xml"/>
+    <lastBuildDate>Wed, 11 Feb 2026 23:15:08 GMT</lastBuildDate>
+    <atom:link href="https://jabba2324.github.io/podcasts/feed.xml" rel="self" type="application/rss+xml"/>
     <itunes:image href="https://jabba2324.github.io/podcasts/icon.png"/>
+
     <itunes:author>Chris Sewell</itunes:author>
     <itunes:summary>Your daily AI-generated news summary</itunes:summary>
     <itunes:owner>
@@ -26,7 +26,7 @@
       <title>World News 2026-02-11</title>
       <description>Today's top stories in a few minutes</description>
       <enclosure url="https://sos-ch-gva-2.exo.io/podcasts/2026-02-11/worldnews.mp3" 
-                 length="2403309" 
+                 length="150" 
                  type="audio/mpeg"/>
       <pubDate>Wed, 11 Feb 2026 20:51:08 GMT</pubDate>
       <guid isPermaLink="false">2026-02-11</guid>

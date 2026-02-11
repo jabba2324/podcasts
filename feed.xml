@@ -10,7 +10,7 @@
     <language>en-us</language>
     <lastBuildDate>Wed, 11 Feb 2026 22:45:18 GMT</lastBuildDate>
     <atom:link href="https://jabba2324.github.io/newscast/feed.xml" rel="self" type="application/rss+xml"/>
-    
+    <itunes:image href="https://jabba2324.github.io/podcasts/icon.png"/>
     <itunes:author>Chris Sewell</itunes:author>
     <itunes:summary>Your daily AI-generated news summary</itunes:summary>
     <itunes:owner>

@@ -7,7 +7,7 @@
     <title>Espresso News</title>
     <description>Your daily AI-generated news summary - tech, business, and world events in under 10 minutes</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Feb 2026 19:34:56 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 14 Feb 2026 19:46:11 GMT</lastBuildDate>
     <atom:link href="https://jabba2324.github.io/podcasts/feed.xml" rel="self" type="application/rss+xml"/>
     <itunes:image href="https://jabba2324.github.io/podcasts/icon.png"/>
 
@@ -25,34 +25,12 @@
     <item>
       <title>World News 2026-02-07</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://sos-ch-gva-2.exo.io/podcasts/2026-02-07/" 
-                 length="0" 
-                 type="audio/mpeg"/>
-      <pubDate>2026-02-07</pubDate>
-      <guid isPermaLink="false">2026-02-07</guid>
-      <itunes:duration>0</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <title>World News 2026-02-07</title>
-      <description>Today's top stories in a few minutes</description>
       <enclosure url="https://sos-ch-gva-2.exo.io/podcasts/2026-02-07/worldnews.mp3" 
                  length="3115093" 
                  type="audio/mpeg"/>
       <pubDate>2026-02-07</pubDate>
-      <guid isPermaLink="false">2026-02-07</guid>
+      <guid isPermaLink="false">"8e5e54e3d804765c387e8fd33061e4f5"</guid>
       <itunes:duration>194</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <title>World News 2026-02-08</title>
-      <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://sos-ch-gva-2.exo.io/podcasts/2026-02-08/" 
-                 length="0" 
-                 type="audio/mpeg"/>
-      <pubDate>2026-02-08</pubDate>
-      <guid isPermaLink="false">2026-02-08</guid>
-      <itunes:duration>0</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
@@ -62,19 +40,8 @@
                  length="2421699" 
                  type="audio/mpeg"/>
       <pubDate>2026-02-08</pubDate>
-      <guid isPermaLink="false">2026-02-08</guid>
+      <guid isPermaLink="false">"8f6ae4972184165494b9ae842aae4d2a"</guid>
       <itunes:duration>151</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <title>World News 2026-02-09</title>
-      <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://sos-ch-gva-2.exo.io/podcasts/2026-02-09/" 
-                 length="0" 
-                 type="audio/mpeg"/>
-      <pubDate>2026-02-09</pubDate>
-      <guid isPermaLink="false">2026-02-09</guid>
-      <itunes:duration>0</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
@@ -84,19 +51,8 @@
                  length="2707165" 
                  type="audio/mpeg"/>
       <pubDate>2026-02-09</pubDate>
-      <guid isPermaLink="false">2026-02-09</guid>
+      <guid isPermaLink="false">"473adcfdc1d1c0575e6cdde3948f4606"</guid>
       <itunes:duration>169</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <title>World News 2026-02-10</title>
-      <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://sos-ch-gva-2.exo.io/podcasts/2026-02-10/" 
-                 length="0" 
-                 type="audio/mpeg"/>
-      <pubDate>2026-02-10</pubDate>
-      <guid isPermaLink="false">2026-02-10</guid>
-      <itunes:duration>0</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
@@ -106,7 +62,7 @@
                  length="2097781" 
                  type="audio/mpeg"/>
       <pubDate>2026-02-10</pubDate>
-      <guid isPermaLink="false">2026-02-10</guid>
+      <guid isPermaLink="false">"20257403cc340da6d78e3487aaa4d99a"</guid>
       <itunes:duration>131</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
@@ -117,19 +73,8 @@
                  length="3678920" 
                  type="audio/mpeg"/>
       <pubDate>2026-02-11</pubDate>
-      <guid isPermaLink="false">2026-02-11</guid>
+      <guid isPermaLink="false">"af90c71f2a9593b2d5f7d45accb3e617"</guid>
       <itunes:duration>229</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <title>World News 2026-02-12</title>
-      <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://sos-ch-gva-2.exo.io/podcasts/2026-02-12/" 
-                 length="0" 
-                 type="audio/mpeg"/>
-      <pubDate>2026-02-12</pubDate>
-      <guid isPermaLink="false">2026-02-12</guid>
-      <itunes:duration>0</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
@@ -139,19 +84,8 @@
                  length="2687103" 
                  type="audio/mpeg"/>
       <pubDate>2026-02-12</pubDate>
-      <guid isPermaLink="false">2026-02-12</guid>
+      <guid isPermaLink="false">"09fa2f30df0b0c148b5dcef9d6e11d9d"</guid>
       <itunes:duration>167</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <title>World News 2026-02-13</title>
-      <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://sos-ch-gva-2.exo.io/podcasts/2026-02-13/" 
-                 length="0" 
-                 type="audio/mpeg"/>
-      <pubDate>2026-02-13</pubDate>
-      <guid isPermaLink="false">2026-02-13</guid>
-      <itunes:duration>0</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
@@ -161,7 +95,7 @@
                  length="3246751" 
                  type="audio/mpeg"/>
       <pubDate>2026-02-13</pubDate>
-      <guid isPermaLink="false">2026-02-13</guid>
+      <guid isPermaLink="false">"14d7164a6569f10d7defe7c61c05e32e"</guid>
       <itunes:duration>202</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
@@ -172,7 +106,7 @@
                  length="3965222" 
                  type="audio/mpeg"/>
       <pubDate>2026-02-14</pubDate>
-      <guid isPermaLink="false">2026-02-14</guid>
+      <guid isPermaLink="false">"a2cbd91803ce8cf52b13da974888378a"</guid>
       <itunes:duration>247</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>

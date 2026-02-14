@@ -1,0 +1,407 @@
+{
+  "name": "Morning News Podcast Generator",
+  "nodes": [
+    {
+      "parameters": {
+        "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.rssFeedRead",
+      "typeVersion": 1.2,
+      "position": [
+        208,
+        0
+      ],
+      "id": "d54f1fbb-4a1d-46fb-a00e-89356ff2fc6e",
+      "name": "RSS Read"
+    },
+    {
+      "parameters": {
+        "operation": "scrape",
+        "url": "={{ $json.link }}",
+        "requestOptions": {}
+      },
+      "type": "@mendable/n8n-nodes-firecrawl.firecrawl",
+      "typeVersion": 1,
+      "position": [
+        624,
+        0
+      ],
+      "id": "37ed3a2c-35ee-45d6-9ef5-8fecb797d9ce",
+      "name": "Scrape a URL and get content as markdown or other formats",
+      "credentials": {
+        "firecrawlApi": {
+          "id": "jwG4z0EuMtcMJPHI",
+          "name": "Firecrawl account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "maxItems": 5
+      },
+      "type": "n8n-nodes-base.limit",
+      "typeVersion": 1,
+      "position": [
+        416,
+        0
+      ],
+      "id": "a7f2e660-a35b-4ffa-a5d7-2c73e2a789de",
+      "name": "Limit"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=Take this markdown containing several BBC News articles and re-write it as news a breif report that could be read by an anchor on a new podcast. There should be a natural pause between each article of four seconds. Use the <break time=\"4s\" /> tag. Do not output unnecessary data such as links, text formatting or space/new line characters that could not be spoken aloud. \n\n{{ $json.markdown }}",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 3.1,
+      "position": [
+        1024,
+        0
+      ],
+      "id": "8e4856fd-a012-4e27-9974-db8186b1d13d",
+      "name": "AI Agent"
+    },
+    {
+      "parameters": {
+        "model": {
+          "__rl": true,
+          "mode": "list",
+          "value": "gpt-4.1-mini"
+        },
+        "builtInTools": {},
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+      "typeVersion": 1.3,
+      "position": [
+        1024,
+        208
+      ],
+      "id": "78265e09-4d29-4850-94e0-f724239690d8",
+      "name": "OpenAI Chat Model",
+      "credentials": {
+        "openAiApi": {
+          "id": "uv601RANK076kejQ",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "fieldsToAggregate": {
+          "fieldToAggregate": [
+            {
+              "fieldToAggregate": "data.markdown"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.aggregate",
+      "typeVersion": 1,
+      "position": [
+        832,
+        0
+      ],
+      "id": "4ef46429-6731-4c9d-abb8-da57ff48614a",
+      "name": "Aggregate1"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.elevenlabs.io/v1/text-to-speech/nPczCjzI2devNBz1zQrb?output_format=mp3_44100_128",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "xi-api-key",
+              "value": "={{ $vars.elevenlabs_api_key }}"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "text",
+              "value": "={{ $json.output }}"
+            },
+            {
+              "name": "model_id",
+              "value": "eleven_multilingual_v2"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.3,
+      "position": [
+        1376,
+        0
+      ],
+      "id": "507cdca1-463a-4223-8b7d-03404eb24d48",
+      "name": "HTTP Request"
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "triggerAtHour": 7
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.3,
+      "position": [
+        16,
+        0
+      ],
+      "id": "2cf48e33-eca3-4cd0-9f6b-a4538626b2df",
+      "name": "Schedule Trigger"
+    },
+    {
+      "parameters": {
+        "operation": "upload",
+        "bucketName": "podcasts",
+        "fileName": "={{ $now.toFormat('yyyy-MM-dd') }}/worldnews.mp3",
+        "additionalFields": {
+          "acl": "publicRead"
+        }
+      },
+      "type": "n8n-nodes-base.s3",
+      "typeVersion": 1,
+      "position": [
+        1584,
+        0
+      ],
+      "id": "e6eb0ad0-14d0-4c39-9c1d-3a78bdf96d19",
+      "name": "Upload to S3",
+      "credentials": {
+        "s3": {
+          "id": "jZCY4mECfWcN7HmN",
+          "name": "S3 account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "resource": "bucket",
+        "operation": "search",
+        "bucketName": "podcasts",
+        "additionalFields": {}
+      },
+      "type": "n8n-nodes-base.s3",
+      "typeVersion": 1,
+      "position": [
+        1792,
+        0
+      ],
+      "id": "f1c93a72-2b8d-4d72-bfeb-c28bcf7df619",
+      "name": "Search a bucket",
+      "credentials": {
+        "s3": {
+          "id": "jZCY4mECfWcN7HmN",
+          "name": "S3 account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "const items = $('Search a bucket').all();\n\n// Build the episodes XML\nlet episodesXml = '';\n\nconst mp3Items = items.filter(item => item.json.Key.includes('.mp3'));\n\nmp3Items.forEach((item) => {\n  const date = item.json.Key.split(\"/\")[0];\n  const bitrate = 128; // kbps from ElevenLabs\n  const durationSeconds = Math.floor((parseInt(item.json.Size) * 8) / (bitrate * 1000));\n  \n  episodesXml += `\n    <item>\n      <title>World News ${date}</title>\n      <description>Today's top stories in a few minutes</description>\n      <enclosure url=\"https://sos-ch-gva-2.exo.io/podcasts/${item.json.Key}\" \n                 length=\"${item.json.Size}\" \n                 type=\"audio/mpeg\"/>\n      <pubDate>${date}</pubDate>\n      <guid isPermaLink=\"false\">${item.json.ETag}</guid>\n      <itunes:duration>${durationSeconds}</itunes:duration>\n      <itunes:explicit>no</itunes:explicit>\n    </item>`;\n});\n\n// Build complete RSS feed\nconst feedXml = `<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<rss version=\"2.0\" \n     xmlns:itunes=\"http://www.itunes.com/dtds/podcast-1.0.dtd\"\n     xmlns:content=\"http://purl.org/rss/1.0/modules/content/\"\n     xmlns:atom=\"http://www.w3.org/2005/Atom\">\n  <channel>\n    <title>Espresso News</title>\n    <description>Your daily AI-generated news summary, the world events in under 10 minutes</description>\n    <language>en-us</language>\n    <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>\n    <atom:link href=\"https://jabba2324.github.io/podcasts/feed.xml\" rel=\"self\" type=\"application/rss+xml\"/>\n    <itunes:image href=\"https://jabba2324.github.io/podcasts/icon.png\"/>\n\n    <itunes:author>Chris Sewell</itunes:author>\n    <itunes:summary>Your daily AI-generated news summary</itunes:summary>\n    <itunes:owner>\n      <itunes:name>Chris Sewell</itunes:name>\n    </itunes:owner>\n    <itunes:category text=\"News\">\n      <itunes:category text=\"World News\"/>\n    </itunes:category>\n    <itunes:explicit>no</itunes:explicit>\n    <itunes:type>episodic</itunes:type>\n    ${episodesXml}\n  </channel>\n</rss>`;\n\nreturn [{ json: { feedContent: feedXml } }];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        2208,
+        0
+      ],
+      "id": "38a8b73c-76a7-4d56-bdd3-67e2e1575cf4",
+      "name": "Code in JavaScript"
+    },
+    {
+      "parameters": {
+        "authentication": "oAuth2",
+        "resource": "file",
+        "operation": "edit",
+        "owner": {
+          "__rl": true,
+          "value": "jabba2324",
+          "mode": "list",
+          "cachedResultName": "jabba2324",
+          "cachedResultUrl": "https://github.com/jabba2324"
+        },
+        "repository": {
+          "__rl": true,
+          "value": "podcasts",
+          "mode": "list",
+          "cachedResultName": "podcasts",
+          "cachedResultUrl": "https://github.com/jabba2324/podcasts"
+        },
+        "filePath": "feed.xml",
+        "fileContent": "={{ $json.feedContent }}",
+        "commitMessage": "=update {{ $now.format('yyyy-MM-dd') }}"
+      },
+      "type": "n8n-nodes-base.github",
+      "typeVersion": 1.1,
+      "position": [
+        2416,
+        0
+      ],
+      "id": "a55709c5-f941-4d2f-88e9-14a7648f6dae",
+      "name": "Edit a file",
+      "webhookId": "3bd0696f-e014-4643-8622-3139804b3679",
+      "credentials": {
+        "githubOAuth2Api": {
+          "id": "nQw5nvCkmUQZBl0F",
+          "name": "GitHub account"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "RSS Read": {
+      "main": [
+        [
+          {
+            "node": "Limit",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Limit": {
+      "main": [
+        [
+          {
+            "node": "Scrape a URL and get content as markdown or other formats",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Scrape a URL and get content as markdown or other formats": {
+      "main": [
+        [
+          {
+            "node": "Aggregate1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenAI Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "AI Agent": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Aggregate1": {
+      "main": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request": {
+      "main": [
+        [
+          {
+            "node": "Upload to S3",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Schedule Trigger": {
+      "main": [
+        [
+          {
+            "node": "RSS Read",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Upload to S3": {
+      "main": [
+        [
+          {
+            "node": "Search a bucket",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Search a bucket": {
+      "main": [
+        [
+          {
+            "node": "Code in JavaScript",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code in JavaScript": {
+      "main": [
+        [
+          {
+            "node": "Edit a file",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1",
+    "availableInMCP": false
+  },
+  "versionId": "da308b7c-232b-4a75-b57b-a181dd346b90",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "bc5e4883669138de57d128f62b370669693bb0dc2eb8c217cf34f82cd60b1205"
+  },
+  "id": "en5iWhepyxvcFGgVrXNTU",
+  "tags": []
+}

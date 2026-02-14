@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espresso News</title>
+    <link rel="icon" type="image/png" href="icon.png">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: #f9f7f4;
+            min-height: 100vh;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+
+        header {
+            display: flex;
+            align-items: flex-start;
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+        }
+
+        .podcast-image {
+            width: 120px;
+            height: 120px;
+            border-radius: 16px;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+            flex-shrink: 0;
+        }
+
+        .header-text {
+            flex: 1;
+        }
+
+        h1 {
+            font-size: 2rem;
+            color: #2c2c2c;
+            margin-bottom: 0.5rem;
+        }
+
+        .podcast-description {
+            color: #666;
+            font-size: 1rem;
+        }
+
+        .podcast-author {
+            color: #8b6914;
+            margin-top: 0.5rem;
+            font-size: 0.95rem;
+        }
+
+        .episodes {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .episode {
+            background: #fff;
+            border-radius: 12px;
+            padding: 1.5rem;
+            transition: box-shadow 0.2s ease;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+        }
+
+        .episode:hover {
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+        }
+
+        .episode-title {
+            font-size: 1.25rem;
+            color: #2c2c2c;
+            margin-bottom: 0.5rem;
+        }
+
+        .episode-meta {
+            display: flex;
+            gap: 1rem;
+            color: #888;
+            font-size: 0.9rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .episode-description {
+            color: #555;
+            margin-bottom: 1rem;
+            font-size: 0.95rem;
+        }
+
+        audio {
+            width: 100%;
+            height: 40px;
+            border-radius: 8px;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 3rem;
+            color: #888;
+        }
+
+        .error {
+            text-align: center;
+            padding: 2rem;
+            color: #c0392b;
+            background: #fdecea;
+            border-radius: 8px;
+        }
+
+        .subscribe-link {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.5rem 1rem;
+            background: #8b6914;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 6px;
+            font-size: 0.9rem;
+            transition: background 0.2s ease;
+        }
+
+        .subscribe-link:hover {
+            background: #6d5310;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            .podcast-image {
+                width: 100px;
+                height: 100px;
+            }
+
+            h1 {
+                font-size: 1.6rem;
+            }
+
+            .episode {
+                padding: 1rem;
+            }
+
+            .episode-meta {
+                flex-direction: column;
+                gap: 0.25rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header id="header">
+            <div class="loading">Loading podcast...</div>
+        </header>
+        <main id="episodes" class="episodes"></main>
+    </div>
+
+    <script>
+        function formatDuration(seconds) {
+            const mins = Math.floor(seconds / 60);
+            const secs = seconds % 60;
+            return `${mins}:${secs.toString().padStart(2, '0')}`;
+        }
+
+        function formatDate(dateStr) {
+            const date = new Date(dateStr);
+            if (isNaN(date.getTime())) {
+                return dateStr;
+            }
+            return date.toLocaleDateString('en-US', {
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric'
+            });
+        }
+
+        function formatFileSize(bytes) {
+            const mb = bytes / (1024 * 1024);
+            return `${mb.toFixed(1)} MB`;
+        }
+
+        async function loadFeed() {
+            const headerEl = document.getElementById('header');
+            const episodesEl = document.getElementById('episodes');
+
+            try {
+                const response = await fetch('https://jabba2324.github.io/podcasts/feed.xml');
+                if (!response.ok) {
+                    throw new Error('Failed to load feed');
+                }
+
+                const xmlText = await response.text();
+                const parser = new DOMParser();
+                const xml = parser.parseFromString(xmlText, 'application/xml');
+
+                const channel = xml.querySelector('channel');
+                const title = channel.querySelector('title')?.textContent || 'Podcast';
+                const description = channel.querySelector('description')?.textContent || '';
+                const authorEl = channel.getElementsByTagName('itunes:author')[0] || channel.querySelector('author');
+                const author = authorEl?.textContent || '';
+                const imageEl = channel.getElementsByTagName('itunes:image')[0];
+                const image = imageEl?.getAttribute('href') || 'icon.png';
+
+                headerEl.innerHTML = `
+                    ${image ? `<img src="${image}" alt="${title}" class="podcast-image">` : ''}
+                    <div class="header-text">
+                        <h1>${title}</h1>
+                        <p class="podcast-description">${description}</p>
+                        ${author ? `<p class="podcast-author">By ${author}</p>` : ''}
+                        <a href="feed.xml" class="subscribe-link">Subscribe via RSS</a>
+                    </div>
+                `;
+
+                const items = channel.querySelectorAll('item');
+                const sortedItems = Array.from(items).sort((a, b) => {
+                    const dateA = new Date(a.querySelector('pubDate')?.textContent || 0);
+                    const dateB = new Date(b.querySelector('pubDate')?.textContent || 0);
+                    return dateB - dateA;
+                });
+
+                if (sortedItems.length === 0) {
+                    episodesEl.innerHTML = '<p class="loading">No episodes found.</p>';
+                    return;
+                }
+
+                episodesEl.innerHTML = sortedItems.map(item => {
+                    const itemTitle = item.querySelector('title')?.textContent || 'Untitled';
+                    const itemDescription = item.querySelector('description')?.textContent || '';
+                    const enclosure = item.querySelector('enclosure');
+                    const audioUrl = enclosure?.getAttribute('url') || '';
+                    const audioSize = enclosure?.getAttribute('length') || 0;
+                    const pubDate = item.querySelector('pubDate')?.textContent || '';
+                    const duration = item.querySelector('itunes\\:duration')?.textContent || '';
+
+                    return `
+                        <article class="episode">
+                            <h2 class="episode-title">${itemTitle}</h2>
+                            <div class="episode-meta">
+                                <span>${formatDate(pubDate)}</span>
+                                ${duration ? `<span>${formatDuration(parseInt(duration))}</span>` : ''}
+                                ${audioSize ? `<span>${formatFileSize(parseInt(audioSize))}</span>` : ''}
+                            </div>
+                            <p class="episode-description">${itemDescription}</p>
+                            ${audioUrl ? `
+                                <audio controls preload="none">
+                                    <source src="${audioUrl}" type="audio/mpeg">
+                                    Your browser does not support the audio element.
+                                </audio>
+                            ` : ''}
+                        </article>
+                    `;
+                }).join('');
+
+            } catch (error) {
+                console.error('Error loading feed:', error);
+                headerEl.innerHTML = '';
+                episodesEl.innerHTML = `
+                    <div class="error">
+                        <p>Failed to load podcast feed.</p>
+                        <p>${error.message}</p>
+                    </div>
+                `;
+            }
+        }
+
+        loadFeed();
+    </script>
+</body>
+</html>

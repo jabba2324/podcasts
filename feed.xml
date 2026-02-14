@@ -5,9 +5,9 @@
      xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Espresso News</title>
-    <description>Your daily AI-generated news summary - tech, business, and world events in under 10 minutes</description>
+    <description>Your daily AI-generated news summary, the world events in under 10 minutes</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Feb 2026 19:46:11 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 14 Feb 2026 20:08:14 GMT</lastBuildDate>
     <atom:link href="https://jabba2324.github.io/podcasts/feed.xml" rel="self" type="application/rss+xml"/>
     <itunes:image href="https://jabba2324.github.io/podcasts/icon.png"/>
 

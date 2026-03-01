@@ -8,10 +8,9 @@
     <description>Your daily AI-generated news summary, the world events in under 10 minutes</description>
     <link>https://jabba2324.github.io/podcasts/</link>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Mar 2026 12:46:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 01 Mar 2026 13:04:40 GMT</lastBuildDate>
     <atom:link href="https://jabba2324.github.io/podcasts/feed.xml" rel="self" type="application/rss+xml"/>
-    <itunes:image href="https://jabba2324.github.io/podcasts/icon.png"/>
-
+    <itunes:image href="https://jabba2324.github.io/podcasts/icon-podcast.png"/>
     <itunes:author>Chris Sewell</itunes:author>
     <itunes:summary>Your daily AI-generated news summary</itunes:summary>
     <itunes:owner>

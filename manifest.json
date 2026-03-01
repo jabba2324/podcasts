@@ -1,0 +1,14 @@
+{
+  "name": "Espresso News",
+  "short_name": "Espresso News",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f9f7f4",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "200x200",
+      "type": "image/png"
+    }
+  ]
+}

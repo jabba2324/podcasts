@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Espresso News</title>
-    <link rel="icon" type="image/png" href="icon.png">
-    <link rel="apple-touch-icon" href="icon.png">
+    <link rel="icon" href="favicon.ico" sizes="any">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-title" content="Espresso News">
     <link rel="manifest" href="manifest.json">
@@ -219,7 +219,7 @@
                 const authorEl = channel.getElementsByTagName('itunes:author')[0] || channel.querySelector('author');
                 const author = authorEl?.textContent || '';
                 const imageEl = channel.getElementsByTagName('itunes:image')[0];
-                const image = imageEl?.getAttribute('href') || 'icon.png';
+                const image = 'icon.png';
 
                 headerEl.innerHTML = `
                     ${image ? `<img src="${image}" alt="${title}" class="podcast-image">` : ''}

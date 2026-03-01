@@ -7,7 +7,7 @@
     <title>Espresso News</title>
     <description>Your daily AI-generated news summary, the world events in under 10 minutes</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Mar 2026 12:10:01 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 01 Mar 2026 12:29:45 GMT</lastBuildDate>
     <atom:link href="https://jabba2324.github.io/podcasts/feed.xml" rel="self" type="application/rss+xml"/>
     <itunes:image href="https://jabba2324.github.io/podcasts/icon.png"/>
 
@@ -28,7 +28,7 @@
       <enclosure url="https://jabba2324.github.io/podcasts/2026-03-01/worldnews.mp3" 
                  length="6005699" 
                  type="audio/mpeg"/>
-      <pubDate>2026-03-01</pubDate>
+      <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">"1c2e12847928e4ee52739b3ff047e394"</guid>
       <itunes:duration>375</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
@@ -39,7 +39,7 @@
       <enclosure url="https://jabba2324.github.io/podcasts/2026-02-27/worldnews.mp3" 
                  length="5222444" 
                  type="audio/mpeg"/>
-      <pubDate>2026-02-27</pubDate>
+      <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">"3d4ab87a2f000ff4171c1a24e4e1d110"</guid>
       <itunes:duration>326</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
@@ -50,7 +50,7 @@
       <enclosure url="https://jabba2324.github.io/podcasts/2026-02-26/worldnews.mp3" 
                  length="5849382" 
                  type="audio/mpeg"/>
-      <pubDate>2026-02-26</pubDate>
+      <pubDate>Thu, 26 Feb 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">"0e5a6d1ea708d1c0305e4322c2c5ad9b"</guid>
       <itunes:duration>365</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
@@ -61,7 +61,7 @@
       <enclosure url="https://jabba2324.github.io/podcasts/2026-02-25/worldnews.mp3" 
                  length="8187864" 
                  type="audio/mpeg"/>
-      <pubDate>2026-02-25</pubDate>
+      <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">"46339d4cfbb7f8bfbbbb6c0d1a7a2927"</guid>
       <itunes:duration>511</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
@@ -72,7 +72,7 @@
       <enclosure url="https://jabba2324.github.io/podcasts/2026-02-24/worldnews.mp3" 
                  length="7950045" 
                  type="audio/mpeg"/>
-      <pubDate>2026-02-24</pubDate>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">"bd9218daab4aeb270f88d804fca8dc65"</guid>
       <itunes:duration>496</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
@@ -83,7 +83,7 @@
       <enclosure url="https://jabba2324.github.io/podcasts/2026-02-23/worldnews.mp3" 
                  length="5283466" 
                  type="audio/mpeg"/>
-      <pubDate>2026-02-23</pubDate>
+      <pubDate>Mon, 23 Feb 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">"357283b7fe21ee8492937973980dbca1"</guid>
       <itunes:duration>330</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
@@ -94,7 +94,7 @@
       <enclosure url="https://jabba2324.github.io/podcasts/2026-02-22/worldnews.mp3" 
                  length="5553049" 
                  type="audio/mpeg"/>
-      <pubDate>2026-02-22</pubDate>
+      <pubDate>Sun, 22 Feb 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">"aecf7c82d03d515d58b9b82e49866e90"</guid>
       <itunes:duration>347</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
@@ -105,7 +105,7 @@
       <enclosure url="https://jabba2324.github.io/podcasts/2026-02-21/worldnews.mp3" 
                  length="5374581" 
                  type="audio/mpeg"/>
-      <pubDate>2026-02-21</pubDate>
+      <pubDate>Sat, 21 Feb 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">"bcd1c8b9b7b38cd66dc2aae39e670afc"</guid>
       <itunes:duration>335</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
@@ -116,7 +116,7 @@
       <enclosure url="https://jabba2324.github.io/podcasts/2026-02-20/worldnews.mp3" 
                  length="5425990" 
                  type="audio/mpeg"/>
-      <pubDate>2026-02-20</pubDate>
+      <pubDate>Fri, 20 Feb 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">"1c5ce508ae1f3b0b04baa5ef8ce917e5"</guid>
       <itunes:duration>339</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
@@ -127,7 +127,7 @@
       <enclosure url="https://jabba2324.github.io/podcasts/2026-02-19/worldnews.mp3" 
                  length="3346605" 
                  type="audio/mpeg"/>
-      <pubDate>2026-02-19</pubDate>
+      <pubDate>Thu, 19 Feb 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">"77395ffbf6d3e4f09f8b6579e61589f9"</guid>
       <itunes:duration>209</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
@@ -138,7 +138,7 @@
       <enclosure url="https://jabba2324.github.io/podcasts/2026-02-17/worldnews.mp3" 
                  length="6288657" 
                  type="audio/mpeg"/>
-      <pubDate>2026-02-17</pubDate>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">"5b867cc6d6b4fae2fb5e7d1f26e4b565"</guid>
       <itunes:duration>393</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
@@ -149,7 +149,7 @@
       <enclosure url="https://jabba2324.github.io/podcasts/2026-02-16/worldnews.mp3" 
                  length="6616337" 
                  type="audio/mpeg"/>
-      <pubDate>2026-02-16</pubDate>
+      <pubDate>Mon, 16 Feb 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">"e842620b5d08a20d8045855312eee46f"</guid>
       <itunes:duration>413</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
@@ -160,7 +160,7 @@
       <enclosure url="https://jabba2324.github.io/podcasts/2026-02-15/worldnews.mp3" 
                  length="5681781" 
                  type="audio/mpeg"/>
-      <pubDate>2026-02-15</pubDate>
+      <pubDate>Sun, 15 Feb 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">"2b0161e249af1c7b0e6568dcda765616"</guid>
       <itunes:duration>355</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
@@ -171,7 +171,7 @@
       <enclosure url="https://jabba2324.github.io/podcasts/2026-02-14/worldnews.mp3" 
                  length="3965222" 
                  type="audio/mpeg"/>
-      <pubDate>2026-02-14</pubDate>
+      <pubDate>Sat, 14 Feb 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">"a2cbd91803ce8cf52b13da974888378a"</guid>
       <itunes:duration>247</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
@@ -182,7 +182,7 @@
       <enclosure url="https://jabba2324.github.io/podcasts/2026-02-13/worldnews.mp3" 
                  length="3246751" 
                  type="audio/mpeg"/>
-      <pubDate>2026-02-13</pubDate>
+      <pubDate>Fri, 13 Feb 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">"14d7164a6569f10d7defe7c61c05e32e"</guid>
       <itunes:duration>202</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
@@ -193,7 +193,7 @@
       <enclosure url="https://jabba2324.github.io/podcasts/2026-02-12/worldnews.mp3" 
                  length="2687103" 
                  type="audio/mpeg"/>
-      <pubDate>2026-02-12</pubDate>
+      <pubDate>Thu, 12 Feb 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">"09fa2f30df0b0c148b5dcef9d6e11d9d"</guid>
       <itunes:duration>167</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
@@ -204,7 +204,7 @@
       <enclosure url="https://jabba2324.github.io/podcasts/2026-02-11/worldnews.mp3" 
                  length="3678920" 
                  type="audio/mpeg"/>
-      <pubDate>2026-02-11</pubDate>
+      <pubDate>Wed, 11 Feb 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">"af90c71f2a9593b2d5f7d45accb3e617"</guid>
       <itunes:duration>229</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
@@ -215,7 +215,7 @@
       <enclosure url="https://jabba2324.github.io/podcasts/2026-02-10/worldnews.mp3" 
                  length="2097781" 
                  type="audio/mpeg"/>
-      <pubDate>2026-02-10</pubDate>
+      <pubDate>Tue, 10 Feb 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">"20257403cc340da6d78e3487aaa4d99a"</guid>
       <itunes:duration>131</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
@@ -226,7 +226,7 @@
       <enclosure url="https://jabba2324.github.io/podcasts/2026-02-09/worldnews.mp3" 
                  length="2707165" 
                  type="audio/mpeg"/>
-      <pubDate>2026-02-09</pubDate>
+      <pubDate>Mon, 09 Feb 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">"473adcfdc1d1c0575e6cdde3948f4606"</guid>
       <itunes:duration>169</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
@@ -237,7 +237,7 @@
       <enclosure url="https://jabba2324.github.io/podcasts/2026-02-08/worldnews.mp3" 
                  length="2421699" 
                  type="audio/mpeg"/>
-      <pubDate>2026-02-08</pubDate>
+      <pubDate>Sun, 08 Feb 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">"8f6ae4972184165494b9ae842aae4d2a"</guid>
       <itunes:duration>151</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
@@ -248,7 +248,7 @@
       <enclosure url="https://jabba2324.github.io/podcasts/2026-02-07/worldnews.mp3" 
                  length="3115093" 
                  type="audio/mpeg"/>
-      <pubDate>2026-02-07</pubDate>
+      <pubDate>Sat, 07 Feb 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">"8e5e54e3d804765c387e8fd33061e4f5"</guid>
       <itunes:duration>194</itunes:duration>
       <itunes:explicit>no</itunes:explicit>

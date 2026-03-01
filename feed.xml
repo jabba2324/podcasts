@@ -7,7 +7,7 @@
     <title>Espresso News</title>
     <description>Your daily AI-generated news summary, the world events in under 10 minutes</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 27 Feb 2026 07:00:37 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 01 Mar 2026 07:00:57 GMT</lastBuildDate>
     <atom:link href="https://jabba2324.github.io/podcasts/feed.xml" rel="self" type="application/rss+xml"/>
     <itunes:image href="https://jabba2324.github.io/podcasts/icon.png"/>
 
@@ -240,6 +240,17 @@
       <pubDate>2026-02-27</pubDate>
       <guid isPermaLink="false">"3d4ab87a2f000ff4171c1a24e4e1d110"</guid>
       <itunes:duration>326</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>World News 2026-03-01</title>
+      <description>Today's top stories in a few minutes</description>
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-03-01/worldnews.mp3" 
+                 length="7937506" 
+                 type="audio/mpeg"/>
+      <pubDate>2026-03-01</pubDate>
+      <guid isPermaLink="false">"462cc7b8f8f565402a27be455b514d13"</guid>
+      <itunes:duration>496</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
   </channel>

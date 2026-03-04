@@ -8,7 +8,7 @@
     <description>Your daily AI-generated news summary, the world events in under 10 minutes</description>
     <link>https://jabba2324.github.io/podcasts/</link>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 Mar 2026 07:01:45 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 04 Mar 2026 07:02:13 GMT</lastBuildDate>
     <atom:link href="https://jabba2324.github.io/podcasts/feed.xml" rel="self" type="application/rss+xml"/>
     <itunes:image href="https://jabba2324.github.io/podcasts/icon-podcast.png"/>
     <itunes:author>Chris Sewell</itunes:author>
@@ -24,9 +24,20 @@
     <itunes:type>episodic</itunes:type>
     
     <item>
+      <title>World News 2026-03-04</title>
+      <description>Today's top stories in a few minutes</description>
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-03-04/worldnews.mp3" 
+                 length="12373196.8" 
+                 type="audio/mpeg"/>
+      <pubDate>Wed, 04 Mar 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">undefined</guid>
+      <itunes:duration>773</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
       <title>World News 2026-03-03</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-03-03/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-03-04/worldnews.mp3" 
                  length="8231321.6" 
                  type="audio/mpeg"/>
       <pubDate>Tue, 03 Mar 2026 00:00:00 GMT</pubDate>
@@ -37,7 +48,7 @@
     <item>
       <title>World News 2026-03-02</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-03-03/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-03-04/worldnews.mp3" 
                  length="7560232.96" 
                  type="audio/mpeg"/>
       <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>

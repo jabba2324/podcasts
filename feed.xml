@@ -8,7 +8,7 @@
     <description>Your daily AI-generated news summary, the world events in under 10 minutes</description>
     <link>https://jabba2324.github.io/podcasts/</link>
     <language>en-us</language>
-    <lastBuildDate>Thu, 06 Aug 2026 06:01:30 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2026 06:01:22 GMT</lastBuildDate>
     <atom:link href="https://jabba2324.github.io/podcasts/feed.xml" rel="self" type="application/rss+xml"/>
     <itunes:image href="https://jabba2324.github.io/podcasts/icon-podcast.png"/>
     <itunes:author>Chris Sewell</itunes:author>
@@ -24,9 +24,20 @@
     <itunes:type>episodic</itunes:type>
     
     <item>
+      <title>World News 2026-08-07</title>
+      <description>Today's top stories in a few minutes</description>
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
+                 length="6973030.4" 
+                 type="audio/mpeg"/>
+      <pubDate>Fri, 07 Aug 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">undefined</guid>
+      <itunes:duration>435</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
       <title>World News 2026-08-06</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="7088373.76" 
                  type="audio/mpeg"/>
       <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
@@ -37,7 +48,7 @@
     <item>
       <title>World News 2026-08-05</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="10590617.6" 
                  type="audio/mpeg"/>
       <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
@@ -48,7 +59,7 @@
     <item>
       <title>World News 2026-08-04</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="7602176" 
                  type="audio/mpeg"/>
       <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
@@ -59,7 +70,7 @@
     <item>
       <title>World News 2026-08-03</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="7077888" 
                  type="audio/mpeg"/>
       <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
@@ -70,7 +81,7 @@
     <item>
       <title>World News 2026-08-02</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="7717519.36" 
                  type="audio/mpeg"/>
       <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
@@ -81,7 +92,7 @@
     <item>
       <title>World News 2026-08-01</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="7161774.08" 
                  type="audio/mpeg"/>
       <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
@@ -92,7 +103,7 @@
     <item>
       <title>World News 2026-07-31</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="7738490.88" 
                  type="audio/mpeg"/>
       <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
@@ -103,7 +114,7 @@
     <item>
       <title>World News 2026-07-29</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="4645191.68" 
                  type="audio/mpeg"/>
       <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
@@ -114,7 +125,7 @@
     <item>
       <title>World News 2026-07-28</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="9175040" 
                  type="audio/mpeg"/>
       <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
@@ -125,7 +136,7 @@
     <item>
       <title>World News 2026-07-27</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="6427770.88" 
                  type="audio/mpeg"/>
       <pubDate>Mon, 27 Jul 2026 00:00:00 GMT</pubDate>
@@ -136,7 +147,7 @@
     <item>
       <title>World News 2026-07-26</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="11953766.4" 
                  type="audio/mpeg"/>
       <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
@@ -147,7 +158,7 @@
     <item>
       <title>World News 2026-07-25</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="9762242.56" 
                  type="audio/mpeg"/>
       <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
@@ -158,7 +169,7 @@
     <item>
       <title>World News 2026-07-24</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="8304721.92" 
                  type="audio/mpeg"/>
       <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
@@ -169,7 +180,7 @@
     <item>
       <title>World News 2026-07-23</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="13421772.8" 
                  type="audio/mpeg"/>
       <pubDate>Thu, 23 Jul 2026 00:00:00 GMT</pubDate>
@@ -180,7 +191,7 @@
     <item>
       <title>World News 2026-07-22</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="6207569.92" 
                  type="audio/mpeg"/>
       <pubDate>Wed, 22 Jul 2026 00:00:00 GMT</pubDate>
@@ -191,7 +202,7 @@
     <item>
       <title>World News 2026-07-21</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="10485760" 
                  type="audio/mpeg"/>
       <pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
@@ -202,7 +213,7 @@
     <item>
       <title>World News 2026-07-20</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="14260633.6" 
                  type="audio/mpeg"/>
       <pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate>
@@ -213,7 +224,7 @@
     <item>
       <title>World News 2026-07-19</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="8053063.68" 
                  type="audio/mpeg"/>
       <pubDate>Sun, 19 Jul 2026 00:00:00 GMT</pubDate>
@@ -224,7 +235,7 @@
     <item>
       <title>World News 2026-07-18</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="15099494.4" 
                  type="audio/mpeg"/>
       <pubDate>Sat, 18 Jul 2026 00:00:00 GMT</pubDate>
@@ -235,7 +246,7 @@
     <item>
       <title>World News 2026-07-17</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="9825157.12" 
                  type="audio/mpeg"/>
       <pubDate>Fri, 17 Jul 2026 00:00:00 GMT</pubDate>
@@ -246,7 +257,7 @@
     <item>
       <title>World News 2026-07-16</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="12373196.8" 
                  type="audio/mpeg"/>
       <pubDate>Thu, 16 Jul 2026 00:00:00 GMT</pubDate>
@@ -257,7 +268,7 @@
     <item>
       <title>World News 2026-07-14</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="9269411.84" 
                  type="audio/mpeg"/>
       <pubDate>Tue, 14 Jul 2026 00:00:00 GMT</pubDate>
@@ -268,7 +279,7 @@
     <item>
       <title>World News 2026-07-13</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="6658457.6" 
                  type="audio/mpeg"/>
       <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
@@ -279,7 +290,7 @@
     <item>
       <title>World News 2026-07-12</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="6564085.76" 
                  type="audio/mpeg"/>
       <pubDate>Sun, 12 Jul 2026 00:00:00 GMT</pubDate>
@@ -290,7 +301,7 @@
     <item>
       <title>World News 2026-07-11</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="9657384.96" 
                  type="audio/mpeg"/>
       <pubDate>Sat, 11 Jul 2026 00:00:00 GMT</pubDate>
@@ -301,7 +312,7 @@
     <item>
       <title>World News 2026-07-10</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="8965324.8" 
                  type="audio/mpeg"/>
       <pubDate>Fri, 10 Jul 2026 00:00:00 GMT</pubDate>
@@ -312,7 +323,7 @@
     <item>
       <title>World News 2026-07-09</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="6700400.64" 
                  type="audio/mpeg"/>
       <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
@@ -323,7 +334,7 @@
     <item>
       <title>World News 2026-07-08</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="9552527.36" 
                  type="audio/mpeg"/>
       <pubDate>Wed, 08 Jul 2026 00:00:00 GMT</pubDate>
@@ -334,7 +345,7 @@
     <item>
       <title>World News 2026-07-06</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="10380902.4" 
                  type="audio/mpeg"/>
       <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
@@ -345,7 +356,7 @@
     <item>
       <title>World News 2026-07-05</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="9279897.6" 
                  type="audio/mpeg"/>
       <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
@@ -356,7 +367,7 @@
     <item>
       <title>World News 2026-07-04</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="14575206.4" 
                  type="audio/mpeg"/>
       <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>
@@ -367,7 +378,7 @@
     <item>
       <title>World News 2026-07-02</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="10590617.6" 
                  type="audio/mpeg"/>
       <pubDate>Thu, 02 Jul 2026 00:00:00 GMT</pubDate>
@@ -378,7 +389,7 @@
     <item>
       <title>World News 2026-07-01</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="9007267.84" 
                  type="audio/mpeg"/>
       <pubDate>Wed, 01 Jul 2026 00:00:00 GMT</pubDate>
@@ -389,7 +400,7 @@
     <item>
       <title>World News 2026-06-30</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="11953766.4" 
                  type="audio/mpeg"/>
       <pubDate>Tue, 30 Jun 2026 00:00:00 GMT</pubDate>
@@ -400,7 +411,7 @@
     <item>
       <title>World News 2026-06-29</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="7927234.56" 
                  type="audio/mpeg"/>
       <pubDate>Mon, 29 Jun 2026 00:00:00 GMT</pubDate>
@@ -411,7 +422,7 @@
     <item>
       <title>World News 2026-06-28</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="13841203.2" 
                  type="audio/mpeg"/>
       <pubDate>Sun, 28 Jun 2026 00:00:00 GMT</pubDate>
@@ -422,7 +433,7 @@
     <item>
       <title>World News 2026-06-26</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="8220835.84" 
                  type="audio/mpeg"/>
       <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
@@ -433,7 +444,7 @@
     <item>
       <title>World News 2026-06-25</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="8409579.52" 
                  type="audio/mpeg"/>
       <pubDate>Thu, 25 Jun 2026 00:00:00 GMT</pubDate>
@@ -444,7 +455,7 @@
     <item>
       <title>World News 2026-06-24</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="10695475.2" 
                  type="audio/mpeg"/>
       <pubDate>Wed, 24 Jun 2026 00:00:00 GMT</pubDate>
@@ -455,7 +466,7 @@
     <item>
       <title>World News 2026-06-23</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="8870952.96" 
                  type="audio/mpeg"/>
       <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
@@ -466,7 +477,7 @@
     <item>
       <title>World News 2026-06-22</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="7245660.16" 
                  type="audio/mpeg"/>
       <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
@@ -477,7 +488,7 @@
     <item>
       <title>World News 2026-06-21</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="7350517.76" 
                  type="audio/mpeg"/>
       <pubDate>Sun, 21 Jun 2026 00:00:00 GMT</pubDate>
@@ -488,7 +499,7 @@
     <item>
       <title>World News 2026-06-19</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="8860467.2" 
                  type="audio/mpeg"/>
       <pubDate>Fri, 19 Jun 2026 00:00:00 GMT</pubDate>
@@ -499,7 +510,7 @@
     <item>
       <title>World News 2026-06-18</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="9447669.76" 
                  type="audio/mpeg"/>
       <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
@@ -510,7 +521,7 @@
     <item>
       <title>World News 2026-06-17</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="9175040" 
                  type="audio/mpeg"/>
       <pubDate>Wed, 17 Jun 2026 00:00:00 GMT</pubDate>
@@ -521,7 +532,7 @@
     <item>
       <title>World News 2026-06-16</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="6773800.96" 
                  type="audio/mpeg"/>
       <pubDate>Tue, 16 Jun 2026 00:00:00 GMT</pubDate>
@@ -532,7 +543,7 @@
     <item>
       <title>World News 2026-06-15</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="9038725.12" 
                  type="audio/mpeg"/>
       <pubDate>Mon, 15 Jun 2026 00:00:00 GMT</pubDate>
@@ -543,7 +554,7 @@
     <item>
       <title>World News 2026-06-14</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="8074035.2" 
                  type="audio/mpeg"/>
       <pubDate>Sun, 14 Jun 2026 00:00:00 GMT</pubDate>
@@ -554,7 +565,7 @@
     <item>
       <title>World News 2026-06-13</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="11219763.2" 
                  type="audio/mpeg"/>
       <pubDate>Sat, 13 Jun 2026 00:00:00 GMT</pubDate>
@@ -565,7 +576,7 @@
     <item>
       <title>World News 2026-06-12</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="9248440.32" 
                  type="audio/mpeg"/>
       <pubDate>Fri, 12 Jun 2026 00:00:00 GMT</pubDate>
@@ -576,7 +587,7 @@
     <item>
       <title>World News 2026-06-11</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="10234101.76" 
                  type="audio/mpeg"/>
       <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
@@ -587,7 +598,7 @@
     <item>
       <title>World News 2026-06-10</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="10695475.2" 
                  type="audio/mpeg"/>
       <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
@@ -598,7 +609,7 @@
     <item>
       <title>World News 2026-06-09</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="6354370.56" 
                  type="audio/mpeg"/>
       <pubDate>Tue, 09 Jun 2026 00:00:00 GMT</pubDate>
@@ -609,7 +620,7 @@
     <item>
       <title>World News 2026-06-08</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="7948206.08" 
                  type="audio/mpeg"/>
       <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
@@ -620,7 +631,7 @@
     <item>
       <title>World News 2026-06-07</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="10590617.6" 
                  type="audio/mpeg"/>
       <pubDate>Sun, 07 Jun 2026 00:00:00 GMT</pubDate>
@@ -631,7 +642,7 @@
     <item>
       <title>World News 2026-06-06</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="11429478.4" 
                  type="audio/mpeg"/>
       <pubDate>Sat, 06 Jun 2026 00:00:00 GMT</pubDate>
@@ -642,7 +653,7 @@
     <item>
       <title>World News 2026-06-05</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="8829009.92" 
                  type="audio/mpeg"/>
       <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
@@ -653,7 +664,7 @@
     <item>
       <title>World News 2026-06-04</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="12058624" 
                  type="audio/mpeg"/>
       <pubDate>Thu, 04 Jun 2026 00:00:00 GMT</pubDate>
@@ -664,7 +675,7 @@
     <item>
       <title>World News 2026-06-03</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="7224688.64" 
                  type="audio/mpeg"/>
       <pubDate>Wed, 03 Jun 2026 00:00:00 GMT</pubDate>
@@ -675,7 +686,7 @@
     <item>
       <title>World News 2026-06-02</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="8231321.6" 
                  type="audio/mpeg"/>
       <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
@@ -686,7 +697,7 @@
     <item>
       <title>World News 2026-06-01</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="9772728.32" 
                  type="audio/mpeg"/>
       <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
@@ -697,7 +708,7 @@
     <item>
       <title>World News 2026-05-31</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="13107200" 
                  type="audio/mpeg"/>
       <pubDate>Sun, 31 May 2026 00:00:00 GMT</pubDate>
@@ -708,7 +719,7 @@
     <item>
       <title>World News 2026-05-30</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="9332326.4" 
                  type="audio/mpeg"/>
       <pubDate>Sat, 30 May 2026 00:00:00 GMT</pubDate>
@@ -719,7 +730,7 @@
     <item>
       <title>World News 2026-05-29</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="7381975.04" 
                  type="audio/mpeg"/>
       <pubDate>Fri, 29 May 2026 00:00:00 GMT</pubDate>
@@ -730,7 +741,7 @@
     <item>
       <title>World News 2026-05-28</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="9216983.04" 
                  type="audio/mpeg"/>
       <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
@@ -741,7 +752,7 @@
     <item>
       <title>World News 2026-05-27</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="9542041.6" 
                  type="audio/mpeg"/>
       <pubDate>Wed, 27 May 2026 00:00:00 GMT</pubDate>
@@ -752,7 +763,7 @@
     <item>
       <title>World News 2026-05-26</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="6448742.4" 
                  type="audio/mpeg"/>
       <pubDate>Tue, 26 May 2026 00:00:00 GMT</pubDate>
@@ -763,7 +774,7 @@
     <item>
       <title>World News 2026-05-25</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="11953766.4" 
                  type="audio/mpeg"/>
       <pubDate>Mon, 25 May 2026 00:00:00 GMT</pubDate>
@@ -774,7 +785,7 @@
     <item>
       <title>World News 2026-05-24</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="9730785.28" 
                  type="audio/mpeg"/>
       <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
@@ -785,7 +796,7 @@
     <item>
       <title>World News 2026-05-23</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="5473566.72" 
                  type="audio/mpeg"/>
       <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
@@ -796,7 +807,7 @@
     <item>
       <title>World News 2026-05-22</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="8650752" 
                  type="audio/mpeg"/>
       <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
@@ -807,7 +818,7 @@
     <item>
       <title>World News 2026-05-21</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="8514437.12" 
                  type="audio/mpeg"/>
       <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
@@ -818,7 +829,7 @@
     <item>
       <title>World News 2026-05-20</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="7518289.92" 
                  type="audio/mpeg"/>
       <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
@@ -829,7 +840,7 @@
     <item>
       <title>World News 2026-05-19</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="9751756.8" 
                  type="audio/mpeg"/>
       <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
@@ -840,7 +851,7 @@
     <item>
       <title>World News 2026-05-18</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="11534336" 
                  type="audio/mpeg"/>
       <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
@@ -851,7 +862,7 @@
     <item>
       <title>World News 2026-05-17</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="8514437.12" 
                  type="audio/mpeg"/>
       <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
@@ -862,7 +873,7 @@
     <item>
       <title>World News 2026-05-16</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="7748976.64" 
                  type="audio/mpeg"/>
       <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
@@ -873,7 +884,7 @@
     <item>
       <title>World News 2026-05-15</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="8157921.28" 
                  type="audio/mpeg"/>
       <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
@@ -884,7 +895,7 @@
     <item>
       <title>World News 2026-05-14</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="12582912" 
                  type="audio/mpeg"/>
       <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
@@ -895,7 +906,7 @@
     <item>
       <title>World News 2026-05-12</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="10695475.2" 
                  type="audio/mpeg"/>
       <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
@@ -906,7 +917,7 @@
     <item>
       <title>World News 2026-05-11</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="8199864.32" 
                  type="audio/mpeg"/>
       <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
@@ -917,7 +928,7 @@
     <item>
       <title>World News 2026-05-10</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="8336179.2" 
                  type="audio/mpeg"/>
       <pubDate>Sun, 10 May 2026 00:00:00 GMT</pubDate>
@@ -928,7 +939,7 @@
     <item>
       <title>World News 2026-05-09</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="8409579.52" 
                  type="audio/mpeg"/>
       <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
@@ -939,7 +950,7 @@
     <item>
       <title>World News 2026-05-08</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="12687769.6" 
                  type="audio/mpeg"/>
       <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
@@ -950,7 +961,7 @@
     <item>
       <title>World News 2026-05-07</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="10905190.4" 
                  type="audio/mpeg"/>
       <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
@@ -961,7 +972,7 @@
     <item>
       <title>World News 2026-05-06</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="9185525.76" 
                  type="audio/mpeg"/>
       <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
@@ -972,7 +983,7 @@
     <item>
       <title>World News 2026-05-05</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="6910115.84" 
                  type="audio/mpeg"/>
       <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
@@ -983,7 +994,7 @@
     <item>
       <title>World News 2026-05-04</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="8241807.36" 
                  type="audio/mpeg"/>
       <pubDate>Mon, 04 May 2026 00:00:00 GMT</pubDate>
@@ -994,7 +1005,7 @@
     <item>
       <title>World News 2026-05-03</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="8524922.88" 
                  type="audio/mpeg"/>
       <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
@@ -1005,7 +1016,7 @@
     <item>
       <title>World News 2026-05-02</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="11010048" 
                  type="audio/mpeg"/>
       <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
@@ -1016,7 +1027,7 @@
     <item>
       <title>World News 2026-05-01</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="8462008.32" 
                  type="audio/mpeg"/>
       <pubDate>Fri, 01 May 2026 00:00:00 GMT</pubDate>
@@ -1027,7 +1038,7 @@
     <item>
       <title>World News 2026-04-29</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="7465861.12" 
                  type="audio/mpeg"/>
       <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
@@ -1038,7 +1049,7 @@
     <item>
       <title>World News 2026-04-28</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="7434403.84" 
                  type="audio/mpeg"/>
       <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
@@ -1049,7 +1060,7 @@
     <item>
       <title>World News 2026-04-27</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="7759462.4" 
                  type="audio/mpeg"/>
       <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
@@ -1060,7 +1071,7 @@
     <item>
       <title>World News 2026-04-26</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="7801405.44" 
                  type="audio/mpeg"/>
       <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
@@ -1071,7 +1082,7 @@
     <item>
       <title>World News 2026-04-25</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="5421137.92" 
                  type="audio/mpeg"/>
       <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
@@ -1082,7 +1093,7 @@
     <item>
       <title>World News 2026-04-24</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="22544384" 
                  type="audio/mpeg"/>
       <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
@@ -1093,7 +1104,7 @@
     <item>
       <title>World News 2026-04-23</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="14784921.6" 
                  type="audio/mpeg"/>
       <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
@@ -1104,7 +1115,7 @@
     <item>
       <title>World News 2026-04-22</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="5620367.36" 
                  type="audio/mpeg"/>
       <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
@@ -1115,7 +1126,7 @@
     <item>
       <title>World News 2026-04-21</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="9447669.76" 
                  type="audio/mpeg"/>
       <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
@@ -1126,7 +1137,7 @@
     <item>
       <title>World News 2026-04-19</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="22229811.2" 
                  type="audio/mpeg"/>
       <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
@@ -1137,7 +1148,7 @@
     <item>
       <title>World News 2026-04-18</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="8996782.08" 
                  type="audio/mpeg"/>
       <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
@@ -1148,7 +1159,7 @@
     <item>
       <title>World News 2026-04-17</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="9814671.36" 
                  type="audio/mpeg"/>
       <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
@@ -1159,7 +1170,7 @@
     <item>
       <title>World News 2026-04-12</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="7916748.8" 
                  type="audio/mpeg"/>
       <pubDate>Sun, 12 Apr 2026 00:00:00 GMT</pubDate>
@@ -1170,7 +1181,7 @@
     <item>
       <title>World News 2026-04-10</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="7623147.52" 
                  type="audio/mpeg"/>
       <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
@@ -1181,7 +1192,7 @@
     <item>
       <title>World News 2026-04-09</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="12373196.8" 
                  type="audio/mpeg"/>
       <pubDate>Thu, 09 Apr 2026 00:00:00 GMT</pubDate>
@@ -1192,7 +1203,7 @@
     <item>
       <title>World News 2026-04-08</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="10244587.52" 
                  type="audio/mpeg"/>
       <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
@@ -1203,7 +1214,7 @@
     <item>
       <title>World News 2026-04-07</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="10129244.16" 
                  type="audio/mpeg"/>
       <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
@@ -1214,7 +1225,7 @@
     <item>
       <title>World News 2026-04-06</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="12582912" 
                  type="audio/mpeg"/>
       <pubDate>Mon, 06 Apr 2026 00:00:00 GMT</pubDate>
@@ -1225,7 +1236,7 @@
     <item>
       <title>World News 2026-04-05</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="8891924.48" 
                  type="audio/mpeg"/>
       <pubDate>Sun, 05 Apr 2026 00:00:00 GMT</pubDate>
@@ -1236,7 +1247,7 @@
     <item>
       <title>World News 2026-04-04</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="7497318.4" 
                  type="audio/mpeg"/>
       <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
@@ -1247,7 +1258,7 @@
     <item>
       <title>World News 2026-04-03</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="9206497.28" 
                  type="audio/mpeg"/>
       <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
@@ -1258,7 +1269,7 @@
     <item>
       <title>World News 2026-04-02</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="6270484.48" 
                  type="audio/mpeg"/>
       <pubDate>Thu, 02 Apr 2026 00:00:00 GMT</pubDate>
@@ -1269,7 +1280,7 @@
     <item>
       <title>World News 2026-04-01</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="6847201.28" 
                  type="audio/mpeg"/>
       <pubDate>Wed, 01 Apr 2026 00:00:00 GMT</pubDate>
@@ -1280,7 +1291,7 @@
     <item>
       <title>World News 2026-03-31</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="8388608" 
                  type="audio/mpeg"/>
       <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
@@ -1291,7 +1302,7 @@
     <item>
       <title>World News 2026-03-30</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="8273264.64" 
                  type="audio/mpeg"/>
       <pubDate>Mon, 30 Mar 2026 00:00:00 GMT</pubDate>
@@ -1302,7 +1313,7 @@
     <item>
       <title>World News 2026-03-29</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="9122611.2" 
                  type="audio/mpeg"/>
       <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
@@ -1313,7 +1324,7 @@
     <item>
       <title>World News 2026-03-28</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="19398656" 
                  type="audio/mpeg"/>
       <pubDate>Sat, 28 Mar 2026 00:00:00 GMT</pubDate>
@@ -1324,7 +1335,7 @@
     <item>
       <title>World News 2026-03-27</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="7151288.32" 
                  type="audio/mpeg"/>
       <pubDate>Fri, 27 Mar 2026 00:00:00 GMT</pubDate>
@@ -1335,7 +1346,7 @@
     <item>
       <title>World News 2026-03-26</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="10905190.4" 
                  type="audio/mpeg"/>
       <pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate>
@@ -1346,7 +1357,7 @@
     <item>
       <title>World News 2026-03-25</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="9804185.6" 
                  type="audio/mpeg"/>
       <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
@@ -1357,7 +1368,7 @@
     <item>
       <title>World News 2026-03-24</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="8189378.56" 
                  type="audio/mpeg"/>
       <pubDate>Tue, 24 Mar 2026 00:00:00 GMT</pubDate>
@@ -1368,7 +1379,7 @@
     <item>
       <title>World News 2026-03-23</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="11114905.6" 
                  type="audio/mpeg"/>
       <pubDate>Mon, 23 Mar 2026 00:00:00 GMT</pubDate>
@@ -1379,7 +1390,7 @@
     <item>
       <title>World News 2026-03-22</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="7979663.36" 
                  type="audio/mpeg"/>
       <pubDate>Sun, 22 Mar 2026 00:00:00 GMT</pubDate>
@@ -1390,7 +1401,7 @@
     <item>
       <title>World News 2026-03-21</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="8220835.84" 
                  type="audio/mpeg"/>
       <pubDate>Sat, 21 Mar 2026 00:00:00 GMT</pubDate>
@@ -1401,7 +1412,7 @@
     <item>
       <title>World News 2026-03-20</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="6731857.92" 
                  type="audio/mpeg"/>
       <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
@@ -1412,7 +1423,7 @@
     <item>
       <title>World News 2026-03-19</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="8818524.16" 
                  type="audio/mpeg"/>
       <pubDate>Thu, 19 Mar 2026 00:00:00 GMT</pubDate>
@@ -1423,7 +1434,7 @@
     <item>
       <title>World News 2026-03-18</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="10391388.16" 
                  type="audio/mpeg"/>
       <pubDate>Wed, 18 Mar 2026 00:00:00 GMT</pubDate>
@@ -1434,7 +1445,7 @@
     <item>
       <title>World News 2026-03-17</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="8042577.92" 
                  type="audio/mpeg"/>
       <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
@@ -1445,7 +1456,7 @@
     <item>
       <title>World News 2026-03-16</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="6207569.92" 
                  type="audio/mpeg"/>
       <pubDate>Mon, 16 Mar 2026 00:00:00 GMT</pubDate>
@@ -1456,7 +1467,7 @@
     <item>
       <title>World News 2026-03-13</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="13107200" 
                  type="audio/mpeg"/>
       <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
@@ -1467,7 +1478,7 @@
     <item>
       <title>World News 2026-03-12</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="10076815.36" 
                  type="audio/mpeg"/>
       <pubDate>Thu, 12 Mar 2026 00:00:00 GMT</pubDate>
@@ -1478,7 +1489,7 @@
     <item>
       <title>World News 2026-03-11</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="9678356.48" 
                  type="audio/mpeg"/>
       <pubDate>Wed, 11 Mar 2026 00:00:00 GMT</pubDate>
@@ -1489,7 +1500,7 @@
     <item>
       <title>World News 2026-03-10</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="8220835.84" 
                  type="audio/mpeg"/>
       <pubDate>Tue, 10 Mar 2026 00:00:00 GMT</pubDate>
@@ -1500,7 +1511,7 @@
     <item>
       <title>World News 2026-03-09</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="10045358.08" 
                  type="audio/mpeg"/>
       <pubDate>Mon, 09 Mar 2026 00:00:00 GMT</pubDate>
@@ -1511,7 +1522,7 @@
     <item>
       <title>World News 2026-03-08</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="9112125.44" 
                  type="audio/mpeg"/>
       <pubDate>Sun, 08 Mar 2026 00:00:00 GMT</pubDate>
@@ -1522,7 +1533,7 @@
     <item>
       <title>World News 2026-03-07</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="16043212.8" 
                  type="audio/mpeg"/>
       <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
@@ -1533,7 +1544,7 @@
     <item>
       <title>World News 2026-03-06</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="10244587.52" 
                  type="audio/mpeg"/>
       <pubDate>Fri, 06 Mar 2026 00:00:00 GMT</pubDate>
@@ -1544,7 +1555,7 @@
     <item>
       <title>World News 2026-03-05</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="7906263.04" 
                  type="audio/mpeg"/>
       <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
@@ -1555,7 +1566,7 @@
     <item>
       <title>World News 2026-03-04</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="12373196.8" 
                  type="audio/mpeg"/>
       <pubDate>Wed, 04 Mar 2026 00:00:00 GMT</pubDate>
@@ -1566,7 +1577,7 @@
     <item>
       <title>World News 2026-03-03</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="8231321.6" 
                  type="audio/mpeg"/>
       <pubDate>Tue, 03 Mar 2026 00:00:00 GMT</pubDate>
@@ -1577,7 +1588,7 @@
     <item>
       <title>World News 2026-03-02</title>
       <description>Today's top stories in a few minutes</description>
-      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-06/worldnews.mp3" 
+      <enclosure url="https://jabba2324.github.io/podcasts/2026-08-07/worldnews.mp3" 
                  length="7560232.96" 
                  type="audio/mpeg"/>
       <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>
